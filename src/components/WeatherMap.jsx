@@ -44,7 +44,7 @@ const WeatherMap = ({ lat, lon }) => {
     };
   }, [lat, lon]);
 
-  return <div id="map" style={{ height: '400px', width: '50%',margin:"20px" }}></div>;
+  return <div id="map" style={{ height: '300px', width: '50%',margin:"20px" }}></div>;
 };
 
 export default WeatherMap;

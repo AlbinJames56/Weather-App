@@ -5,8 +5,8 @@ function Header() {
   return (
     
     <>
-    <Navbar style={{ backgroundColor: 'rgba(255, 255, 255, 0)' }}  >
-        <Container>
+    <Navbar className='fixed-top' style={{ backgroundColor: 'rgba(255, 255, 255, 0)' }}  >
+        <Container style={{border:"none"}}>
           <Navbar.Brand href="#home">
             <img
               alt=""
